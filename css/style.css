@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body{
+    height: 2500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: burlywood;
+}
+    .header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(97, 95, 95);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    }
+    .header .header-container{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+    }
+    .header-logo{
+        float: left;
+    }
+    .img1 {
+        color: #000;
+        
+    }
+    .header-list{
+        list-style-type: none;
+        float: right;
+        line-height: 70px;
+    }
+    .header-list li{
+        display: inline;
+        margin-left: 14px;
+    }
+    .header-list li a{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 18px;
+        position: relative;
+        padding: 5px;
+        color: #000000;
+    }
+   
+    .header-list :hover  {
+    color: white;
+    }
+
+    .background {
+        position: relative;
+    }
+
+    .background {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../image/coffee-bar.jpg);
+        position: relative;
+
+
+    }
+    .background-overlay{
+    position:absolute ;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    }
+    .contant{
+        width: 40%;
+        background-color: rgb(158, 40, 11);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        opacity: 0.8;
+    }
+    .title2{
+        color: burlywood;
+        font-size: 55px;
+        text-transform: capitalize;
+
+    }
+    .p2{
+        letter-spacing: 2px;
+    margin: 15px 0px;
+    color: burlywood;
+    font-size: 20px;
+
+    }
+    .btn2{
+        width: 125px;
+        height: 45px;
+        border-radius: 6px;
+        border: 0;
+        font-size: 20px;
+    background-color: burlywood;
+    text-transform: capitalize;
+    }
+    .btn2:hover{
+        background-color: rgb(206, 142, 60);
+    }
+
+    .about{
+        width: 100%;
+      margin-bottom: 40px;
+    }
+    .about-info{
+        float: left;
+        width: 45%;
+        margin-right: 10%;
+    }
+    .hhh {
+        font-weight: bold;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        text-transform: capitalize;
+        margin: 0px 0px 30px;
+
+    }
+    .about-info p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 14px;
+
+        }
+    .about-info i{
+        color: #fff;
+        margin-right: 14px;
+        background-color: burlywood;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 25px;
+        border-radius: 50%;}
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .team {
+        background-color: black;
+    }
+    .team-item{
+        float: left;
+        background-color: gray;
+        width: 30%;
+        padding: 14px 19px;
+        text-align: center;    
+    }
+    .aa{margin: 0px 5%;
+
+    }
+    .team-img{ 
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .team-img img{
+        width: 100%;
+    }
+    .team-overley{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .team-item:hover .team-overley{
+    opacity: 1;
+    visibility: visible;
+    transition: 5s;
+
+
+    }
+    .team-overley a{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(0, 110, 255);
+        color: #fff;
+        font-size: 30;
+        margin-left: auto;
+    }
+    .team-overley a i{
+        line-height: 40px;
+    }
+    .ourteam {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: capitalize;
+    }
+
+
+
+    .portfolio{
+        background-image: url(../image/user.jpg);
+        height: 400px;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 30px; }
+    .portfolio-overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    .portfolio-rank{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .portfolio-community{
+        float: left;
+        width: 20%;
+        margin-left: 4%;
+        text-align: center;
+        background-color: burlywood;
+        opacity: 0.9;
+    }
+.portfolio-community i{
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.portfolio-community h3{
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+}
+.portfolio-community p{
+    font-size: 31px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.pricing-section{
+    position: relative;
+    margin: 0px 40px;
+}
+.h2{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0px 0px 30px;
+}
+.pricing{
+    width: 100%;
+    text-align: center;
+}
+.pricing-item{
+    float: left;
+    width: 30%;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 11px;
+    /* padding: 33px; */
+}
+.pricing-img{
+    width: 100%;
+}
+.pricing-item .pricing-overlay{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: burlywood;
+    opacity: 0;
+    transition: 0.5s
+}
+
+.pricing-item:hover .pricing-overlay{
+    height: 100%;
+    opacity: 0.5;
+}
+
+.pricing-details{
+    font-weight: bold;
+}
+.pricing-center{
+    margin: 0px 5%;
+}
+.clearfix{
+    clear: both;
+}
+.blogs{
+    margin-bottom: 32px;
+    padding: 30px 0;
+}
+.news-item{
+    width: 30%;
+    float: left;
+}
+.news-img img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.news-info{
+    padding: 15px;
+    background-color: bisque
+}
+.item-transaction{
+    list-style: none;
+    margin-bottom: 11px;
+
+}
+.item-transaction li{
+    display: inline;
+    margin-right: 10px;
+}
+.item-transaction li i{
+    margin-right: 5px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.item-transaction li span{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5; 
+ }
+.item-center{
+    margin: 0 5%;
+}
+.footer{
+    background-color: burlywood;
+    color: #fff;
+    position: relative;
+    height: 250px;    
+}
+.footer-1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(97, 95, 95);
+    padding: 50px 50px 0;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.foot-logo{
+    float: left;
+    width: 20%;
+    font-weight: 600;
+    font-size: 33px;
+}
+.foot-info{
+    float: left;
+    width: 20%;
+}
+.foot-info h4{
+    font-size: 19px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+.foot-info p{
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+.clearfix{
+    clear: both;
+}
+.foot-social{
+    text-align: center;
+}
+.foot-social a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.foot-social a i{
+    line-height: 40px;
+}
